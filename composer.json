@@ -1,14 +1,14 @@
 {
-    "name": "symfony-bundles/redis-bundle",
+    "name": "drone076/redis-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony Redis Bundle",
-    "keywords": ["redis", "symfony", "bundle"],
-    "homepage": "https://github.com/symfony-bundles/redis-bundle",
+    "description": "Symfony 4 Redis Bundle",
+    "keywords": ["redis", "symfony", "bundle", "symfony 4"],
+    "homepage": "https://github.com/drone076/redis-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dmitry Khaperets",
-            "email": "khaperets@gmail.com"
+            "name": "Dr One",
+            "email": "drone076@yahoo.com"
         }
     ],
     "autoload": {
