@@ -1,21 +1,14 @@
-SymfonyBundlesRedisBundle
+Drone076RedisBundle
 =========================
 
-[![SensioLabsInsight][sensiolabs-insight-image]][sensiolabs-insight-link]
-
-[![Build Status][testing-image]][testing-link]
-[![Scrutinizer Code Quality][scrutinizer-code-quality-image]][scrutinizer-code-quality-link]
-[![Code Coverage][code-coverage-image]][code-coverage-link]
-[![Total Downloads][downloads-image]][package-link]
-[![Latest Stable Version][stable-image]][package-link]
-[![License][license-image]][license-link]
+Fork from symfony-bundles/redis-bundle with fixed Symfony 4.* deprecations
 
 Installation
 ------------
 * Require the bundle with composer:
 
 ``` bash
-composer req symfony-bundles/redis-bundle
+composer req drone076/redis-bundle
 ```
 
 Configuring of the clients
