@@ -12,9 +12,15 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $builder = new TreeBuilder();
-        $builder
-            ->root('sb_redis')
+        $builder = new TreeBuilder('sb_redis');
+        if (\method_exists($builder, 'getRootNode')) {
+            $rootNode = $builder->getRootNode();
+        } else {
+            // BC layer for symfony/config 4.1 and older
+            $rootNode = $treeBuilder->root('sb_redis');
+        }
+
+        $rootNode
             ->children()
                 ->arrayNode('clients')
                     ->addDefaultChildrenIfNoneSet('default')
