@@ -3,6 +3,8 @@ Drone076RedisBundle
 
 Fork from symfony-bundles/redis-bundle with fixed Symfony 4.* deprecations
 
+Fix "A tree builder without a root node is deprecated since Symfony 4.2 and will not be supported anymore in 5.0." deprecation.
+
 Installation
 ------------
 * Require the bundle with composer:
